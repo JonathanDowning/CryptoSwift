@@ -1121,6 +1121,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75211FB020724A10004E41F8 /* Project-Debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_UIKITFORMAC = YES;
 			};
 			name = Debug;
 		};
@@ -1128,6 +1133,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75211FAA20724A0F004E41F8 /* Project-Release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_UIKITFORMAC = YES;
 			};
 			name = Release;
 		};
@@ -1135,6 +1145,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75211FAF20724A10004E41F8 /* CryptoSwift-Debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_UIKITFORMAC = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1142,6 +1157,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75211FAC20724A0F004E41F8 /* CryptoSwift-Release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_UIKITFORMAC = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1196,6 +1216,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75211FA620724A0F004E41F8 /* Project-Test.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_UIKITFORMAC = YES;
 			};
 			name = Test;
 		};
@@ -1203,6 +1228,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75211FB420724A10004E41F8 /* CryptoSwift-Test.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_UIKITFORMAC = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Test;
 		};
